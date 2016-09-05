@@ -240,7 +240,7 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicbot/source/master/basicBot.js",
+        scriptLink: "https://rawgit.com/squrch/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/basicbot/source/master/lang/en.json",
         chat: null,
