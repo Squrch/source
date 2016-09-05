@@ -255,7 +255,7 @@
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 200, // 1-200
             startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupEmoji: true, // true or false
             autowoot: true,
             autoskip: false,
             smartSkip: true,
@@ -282,19 +282,19 @@
             thorCooldown: 10,
             skipPosition: 3,
             skipReasons: [
-                ["theme", "This song does not fit the room theme. "],
-                ["op", "This song is on the OP list. "],
+                ["ban", "Another song like this and a ban will be made. "],
+                ["warn", "This is a warning to not play songs like this. "],
                 ["history", "This song is in the history. "],
-                ["mix", "You played a mix, which is against the rules. "],
+                ["inappropriate", "This song is not appropriate. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
-                ["nsfw", "The song you contained was NSFW (image or sound). "],
-                ["unavailable", "The song you played was not available for some users. "]
+                ["error", "A known or uknown error has occured. Your song has been skipped. "],
+                ["unavailable", "The song you played was not available for some / all users. "]
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "Thanks for coming onto K9, we hope you enjoy it here!",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
