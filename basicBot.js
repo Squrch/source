@@ -302,7 +302,7 @@
             rulesLink: null,
             themeLink: null,
             fbLink: null,
-            youtubeLink: https://www.youtube.com/channel/UCbpZ1odLqFJoqvvCuLUCdlA,
+            youtubeLink: null,
             website: null,
             intervalMessages: [],
             messageInterval: 5,
